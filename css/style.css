@@ -5,6 +5,21 @@
     background-color: rgb(255, 250, 245);
 }
 
+/* utils */
+nav{
+    width: 70%;
+    background-color: white;
+    margin: 50px auto 5px;
+    height: 50px;
+}
+
+.container{
+    width: 70%;
+    background-color: white;
+    margin: 0 auto;
+    height: 500px;
+}
+
 /* header */
 header{
     height: 100px;
@@ -20,7 +35,27 @@ img{
     font-family: 'Arial ExtraBold', sans-serif;
     font-size: 50px;
     background-color: white;
-    display: inline-block;
-    height: 50px;
-    margin: auto;
+    display: inline;
+    /* vertical-align: middle;
+    height: 80%; */
 }
+/* fine header */
+
+/* inizio nav */
+.add-task{
+    background-color: rgb(38, 202, 252);
+    border: 1px solid rgb(38, 202, 252);
+    color: white;
+    margin: 10px 10px 10px 50px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.add-section{
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+/* fine nav */
