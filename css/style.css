@@ -17,7 +17,8 @@ nav{
     width: 70%;
     background-color: white;
     margin: 0 auto;
-    height: 500px;
+    /* height: 500px; */
+    font-family: 'Arial ExtraBold', sans-serif;
 }
 
 /* header */
@@ -36,9 +37,8 @@ img{
     font-size: 50px;
     background-color: white;
     display: inline;
-    /* vertical-align: middle;
-    height: 80%; */
 }
+
 /* fine header */
 
 /* inizio nav */
@@ -59,3 +59,101 @@ img{
     border-radius: 5px;
 }
 /* fine nav */
+
+/* main */
+.new-task{
+    padding: 30px 0px 0px 50px;
+}
+
+.today, .upcoming{
+    padding: 5px 50px;
+}
+
+h2{
+    display: inline-block;
+}
+
+.simbolo:before{
+    content:'\2193';
+    font-size: 20px;
+}
+
+.done:before{
+    display: inline-block;
+    content: '\2713';
+    color: green;
+    font-size: 15px;
+    border: 1px solid green;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.not-done:before{
+    display: inline-block;
+    content: '\2717';
+    color: red;
+    font-size: 15px;
+    border: 1px solid red;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.editorial{
+    background-color: rgb(18, 136, 172);
+    border: 1px solid rgb(18, 136, 172);
+    color: white;
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.recluting{
+    background-color: rgb(18, 187, 69);
+    border: 1px solid rgb(18, 187, 69);
+    color: white;
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.Q1Goals{
+    background-color: rgb(141, 18, 172);
+    border: 1px solid rgb(141, 18, 172);
+    color: white;
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.mobile{
+    background-color: orange;
+    border: 1px solid orange;
+    color: white;
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.websites{
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.sales{
+    background-color: lightblue;
+    border: 1px solid lightblue;
+    color: white;
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+li{
+    font-family: 'Arial Bold', sans-serif;
+    list-style-type: none;
+    margin: 5px 10px;
+}
